@@ -1,0 +1,91 @@
+
+
+body {
+    background-image: url(./images/charity.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(17, 0, 77); 
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  main {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  img {
+    border: 1px solid white;
+    border-radius: 5px;
+    max-width: 350px;
+    width: 100%;
+  }
+  
+  p {
+    color: rgba(14, 11, 11, 0.932);
+  }
+  
+  .attribution {
+    position: absolute;
+    right: 20px;
+    bottom: 30px;
+    font-size: 0.9rem;
+    background-color: #0906bdc9;
+    padding: 10px;
+    border-radius: 5px;
+    color: #fdfdfd;
+    box-shadow: 1px 2px 5px 1px rgba(255,255,255, 0.2);
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    opacity: 0.8;
+  }
+  
+  .content {
+    width: 65%;
+    padding: 0px 25px 0px 25px;
+  }
+  
+  .content p {
+    max-width: 80%;
+  }
+  
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 85vh;
+  }
+  
+  button {
+    width: 200px;
+    max-width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 35px;
+    border: 2px solid #ec2106;
+    background: transparent;
+    color: #1714db;
+    border-radius: 30px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: rgba(241, 241, 241, 0.692)
+  }
+  
+  .reveal-btn {
+    border: none;
+    text-decoration: none;
+    margin: 0;
+  }
+  
+  .reveal-btn:hover {
+    color: rgb(99, 2, 2);
+    background-color: transparent;
+  }
